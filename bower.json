@@ -1,0 +1,7 @@
+{
+  "name": "ember-testing-cookbook",
+  "version": "0.0.0",
+  "dependencies": {
+    "ember": "~1.4.0"
+  }
+}
