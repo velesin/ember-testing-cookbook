@@ -1,4 +1,4 @@
-module("index page", {
+module("e2e-basic page", {
   setup: function() {
     App.reset();
   }
