@@ -1,8 +1,12 @@
-module("controller actions");
+var controller;
+
+module("controller actions", {
+  setup: function() {
+    controller = App.ActionsController.create();
+  }
+});
 
 test("invoking action", function() {
-  var controller = App.ActionsController.create();
-
   Ember.run(function() {
     controller.send("updateProperty", "new property value");
   });
