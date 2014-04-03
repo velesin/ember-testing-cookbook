@@ -3,7 +3,7 @@ module.exports = function(config) {
 
     browsers: ["PhantomJS"],
 
-    frameworks: ["qunit"],
+    frameworks: ["sinon", "qunit"],
 
     preprocessors: {
       "app/templates/*.hbs": "ember"
