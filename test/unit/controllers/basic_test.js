@@ -1,3 +1,10 @@
+
+App.BasicController = Ember.Controller.extend({
+  classField: "class field value"
+});
+
+//--------------------------------------------------------------------------
+
 var controller;
 
 module("controller basic", {
