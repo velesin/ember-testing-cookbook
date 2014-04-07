@@ -1,7 +1,11 @@
 
 Ember.TEMPLATES["unit-partials"] = Ember.Handlebars.compile(
   '<div class="unit-partials">{{partial "partial"}}</div>'
-)
+);
+
+Ember.TEMPLATES["_partial"] = Ember.Handlebars.compile(
+  '<div class="partial">partial text</div>'
+);
 
 //--------------------------------------------------------------------------
 
