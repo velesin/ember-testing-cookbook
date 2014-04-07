@@ -1,3 +1,10 @@
+
+Ember.TEMPLATES["unit-controllers"] = Ember.Handlebars.compile(
+  '<div class="unit-controllers">{{render "rendered" someModel className="asd"}}</div>'
+);
+
+//--------------------------------------------------------------------------
+
 module("templates - controllers - full environment", {
   setup: function() {
     var container = new Ember.Container();
