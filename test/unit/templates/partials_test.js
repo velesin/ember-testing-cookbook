@@ -1,3 +1,10 @@
+
+Ember.TEMPLATES["unit-partials"] = Ember.Handlebars.compile(
+  '<div class="unit-partials">{{partial "partial"}}</div>'
+)
+
+//--------------------------------------------------------------------------
+
 module("template partials - testing template and partial together", {
   setup: function() {
     var container = new Ember.Container();
