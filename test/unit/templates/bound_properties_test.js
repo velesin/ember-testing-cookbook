@@ -1,3 +1,11 @@
+
+Ember.TEMPLATES["unit-bound-properties"] = Ember.Handlebars.compile(
+  '<span class="controller-property">{{someProperty}}</span>' +
+  '<span class="view-property">{{view.someProperty}}</span>'
+);
+
+//--------------------------------------------------------------------------
+
 var controller;
 var view;
 
