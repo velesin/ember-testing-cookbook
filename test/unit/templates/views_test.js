@@ -1,3 +1,10 @@
+
+Ember.TEMPLATES["unit-views"] = Ember.Handlebars.compile(
+  '<div class="unit-views">{{view "inner"}}</div>'
+);
+
+//--------------------------------------------------------------------------
+
 module("templates - views", {
   setup: function() {
     var container = new Ember.Container();
