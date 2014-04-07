@@ -5,10 +5,6 @@ module.exports = function(config) {
 
     frameworks: ["sinon", "qunit"],
 
-    preprocessors: {
-      "app/templates/*.hbs": "ember"
-    },
-
     files: [
       "bower_components/jquery/jquery.js",
       "bower_components/handlebars/handlebars.js",
