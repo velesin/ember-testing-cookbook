@@ -1,3 +1,10 @@
+
+Ember.TEMPLATES["unit-basic"] = Ember.Handlebars.compile(
+  '<div class="unit-basic">unit basic template text</div>'
+);
+
+//--------------------------------------------------------------------------
+
 module("template basic", {
   setup: function() {
     var view = Ember.View.create({
