@@ -8,7 +8,6 @@ Ember.TEMPLATES["unit-basic"] = Ember.Handlebars.compile(
 module("template basic", {
   setup: function() {
     var view = Ember.View.create({
-      container: new Ember.Container(),
       template: Ember.TEMPLATES["unit-basic"]
     });
 
