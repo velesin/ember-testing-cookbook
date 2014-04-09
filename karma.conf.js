@@ -10,8 +10,8 @@ module.exports = function(config) {
       "bower_components/handlebars/handlebars.js",
       "bower_components/ember/ember.js",
       "bootstrap.js",
-      "unit/**/*_test.js",
-      "e2e/**/*_test.js"
+      "unit/**/*.js",
+      "e2e/**/*.js"
     ],
 
     autoWatch: true
