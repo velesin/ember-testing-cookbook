@@ -16,7 +16,6 @@ module("template bound properties", {
     });
 
     view = Ember.View.create({
-      container: new Ember.Container(),
       template: Ember.TEMPLATES["unit-bound-properties"],
       controller: controller,
       someProperty: "view property value"
